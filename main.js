@@ -6,3 +6,10 @@ let toSarcasmFont = function () {
       .map((v, i) => (i % 2 ? v.toLowerCase() : v.toUpperCase()))
       .join("") + " /s");
 };
+
+let enterPressed = document.getElementById("normalFont");
+enterPressed.addEventListener("keydown", function (e) {
+    if (e.keyCode === 13) {  //checks whether the pressed key is "Enter"
+        toSarcasmFont();
+    }
+});
