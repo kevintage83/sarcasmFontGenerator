@@ -1,0 +1,20 @@
+div {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+#appHeader {
+  font-size: 60px;
+}
+
+#inputPrompt {
+  font-size: 30px;
+  padding-top: 10px;
+}
+
+#normalFont{
+  width: 200px;
+  height: 20px;
+  padding: 10px 15px 5px 5px;
+}
+
