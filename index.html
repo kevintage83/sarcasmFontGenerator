@@ -9,15 +9,19 @@
 </head>
 
 <body>
-  <div>
-    <h1 id="appHeader">
-      Sarcasm Font Generator
-    </h1>
-    <p id="inputPrompt">your input:
-      <input type="text" id="normalFont" value="">
-      <input type="button" value="make sarcastic" onclick="toSarcasmFont()">
-    </p>
+  <div id="page-container">
+    <div id="content-wrap">
+      <h1 id="appHeader">
+        SaRcAsM FoNt GeNeRaToR
+      </h1>
+      <div id="inputContainer">
+        <!--<p id="inputPrompt">your input:</p> -->
+        <input type="text" id="normalFont" placeholder="enter your snark here" onblur="clearText()"><br>
+        <input type="button" value="make sarcastic" id="sarcasmButton">
+      </div>
+    </div>
     <p id="sarcasticOutput"></p>
+    <footer id="footer">Another pointless application, designed for unneccessary productivity by Kevin Burns </footer>
   </div>
 </body>
 
