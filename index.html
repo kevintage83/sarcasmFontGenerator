@@ -5,10 +5,10 @@
   <meta charset="UTF-8">
   <title>Sarcasm Font Generator</title>
   <script src="main.js"></script>
-  <link rel="stylesheet" href="main.css">
   <script src="https://kit.fontawesome.com/a03ddf2433.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="main.css">
 </head>
-
+  
 <body>
   <div id="page-container">
     <div id="content-wrap">
@@ -17,8 +17,8 @@
       </h1>
       <div id="inputContainer">
         <!--<p id="inputPrompt">your input:</p> -->
-        <input type="text" id="normalFont" placeholder="enter your snark here" onblur="clearText()"><br>
-        <input type="button" value="make sarcastic" id="sarcasmButton">
+        <input type="text" id="normalFont" placeholder="enter your snark here"><br>
+        <input type="button" value="make sarcastic" id="sarcasmButton" onclick="convertAndClearInput()">
       </div>
       <p id="sarcasticOutput"></p>
     </div>
