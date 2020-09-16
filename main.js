@@ -12,9 +12,10 @@ enterPressed.addEventListener("keydown", function (e) {
   if (e.keyCode === 13) {
     //checks whether the pressed key is "Enter"
     toSarcasmFont();
-    event.preventDefault();
+    clearText();
+    //event.preventDefault();
     //this should delete value from the input
-    event.currentTarget.value = "";
+    //event.currentTarget.value = "";
   }
 });
 
