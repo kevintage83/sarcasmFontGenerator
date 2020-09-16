@@ -18,17 +18,11 @@ enterPressed.addEventListener("keydown", function (e) {
   }
 });
 
-// let clearText = function () {
-//   toSarcasmFont();
-//   document.getElementById("normalFont").value = "";
-// };
+let clearText = function () {
+  document.getElementById("normalFont").value = "";
+};
 
-
-function clearFields() {
-     document.getElementById("normalFont").value = "";
-}
-
-function masterFunction() {
+function convertAndClearInput() {
   toSarcasmFont();
-  clearFields();
+  clearText();
 }
