@@ -1,5 +1,5 @@
-# SarcasmFontGenerator
-SarcasmFontGenerator is an incredibly vital tool for the discerning keyboard warrior and internet troll alike! Ever wish you weren't spending so much time creating alternating upper and lower case letters to illustrate your almighty wit? Of course you do! Frustrated by the tedious nature of having to remember to add the "/s" at the end of your remarks to signify your wit and tact? I've got you covered! Just enter your text into the input field and click the conversion button. Being annoying on the internet has never been easier!
+# Sarcasm Font Generator
+Sarcasm Font Generator is an incredibly vital tool for the discerning keyboard warrior and internet troll alike! Ever wish you weren't spending so much time creating alternating upper and lower case letters to illustrate your almighty wit? Of course you do! Frustrated by the tedious nature of having to remember to add the "/s" at the end of your remarks to signify your wit and tact? I've got you covered! Just enter your text into the input field and click the conversion button. Being annoying on the internet has never been easier!
 
 ## Installation
 You could clone the repo, click the download button, or just copy/paste the code into your code editor; it's only a few files. 
